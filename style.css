@@ -115,15 +115,14 @@ ul.dropdown-menu.show {
 
 
 
-/* Pushable main content */
+
 #main-content {
   margin-left: 0;
   transition: margin-left 0.3s ease;
 }
 
-/* When sidebar is active → push content */
 #sidebar.active ~ #main-content {
-  margin-left: 214px; /* same as sidebar width */
+  margin-left: 214px; 
 }
 .myChart {
   display: block;
@@ -172,7 +171,7 @@ ul.dropdown-menu.show {
 .avatar img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* keeps image aspect ratio */
+  object-fit: cover; 
   display: block;
 }
 
@@ -289,4 +288,5 @@ footer a {
 }
 
 }
+
 
